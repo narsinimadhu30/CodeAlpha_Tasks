@@ -6,21 +6,21 @@
 
 ## 📌 Table of Contents
 
-- [`Project Overview`](#project-overview)
-- [`Dataset Description`](#dataset-description)
-- [`Project Workflow`](#project-workflow)
-- [`Exploratory Data Analysis`](#exploratory-data-analysis)
-- [`Data Preprocessing`](#data-preprocessing)
-- [`Model Building`](#model-building)
-- [`Model Evaluation Metrics`](#model-evaluation-metrics)
-- [`Results & Comparison`](#results--comparison)
-- [`Final Conclusion`](#final-conclusion)
-- [`Technologies Used`](#technologies-used)
-- [`How to Run`](#how-to-run)
+- [Project Overview](#project-overview)
+- [Dataset Description](#dataset-description)
+- [Project Workflow](#project-workflow)
+- [Exploratory Data Analysis](#exploratory-data-analysis)
+- [Data Preprocessing](#data-preprocessing)
+- [Model Building](#model-building)
+- [Model Evaluation Metrics](#model-evaluation-metrics)
+- [Results & Comparison](#results--comparison)
+- [Final Conclusion](#final-conclusion)
+- [Technologies Used](#technologies-used)
+- [How to Run](#how-to-run)
 
 ---
 
-## 📖 Project Overview
+## Project Overview
 
 This project demonstrates a complete **multi-class classification pipeline** on the classic Iris dataset. Five machine learning models are trained, evaluated with confusion matrices and classification reports, and compared against each other.
 
@@ -34,7 +34,7 @@ This project demonstrates a complete **multi-class classification pipeline** on 
 
 ---
 
-## 📂 Dataset Description
+## Dataset Description
 
 - **Source:** Kaggle — [`saurabh00007/iriscsv`](https://www.kaggle.com/datasets/saurabh00007/iriscsv) (downloaded via `kagglehub`)
 - **File:** `Iris.csv`
@@ -74,7 +74,7 @@ This project demonstrates a complete **multi-class classification pipeline** on 
 
 ---
 
-## 🔄 Project Workflow
+## Project Workflow
 
 ```
 Download Dataset (Kaggle via kagglehub)
@@ -109,7 +109,7 @@ Compare All Models & Select Best
 
 ---
 
-## 📊 Exploratory Data Analysis
+## Exploratory Data Analysis
 
 ### Statistical Summary
 
@@ -132,7 +132,7 @@ A correlation heatmap was plotted for all numeric features:
 
 ---
 
-## ⚙️ Data Preprocessing
+## Data Preprocessing
 
 ### 1. Label Encoding
 ```python
@@ -163,7 +163,7 @@ X_train, X_test, Y_train, Y_test = train_test_split(x, y, test_size=0.20, random
 
 ---
 
-## 🧠 Model Building
+## Model Building
 
 ### 1. Logistic Regression
 ```python
@@ -216,7 +216,7 @@ Classifies each sample based on the majority vote of its K nearest neighbors (de
 
 ---
 
-## 📐 Model Evaluation Metrics
+## Model Evaluation Metrics
 
 ### Metrics Explained
 
@@ -238,7 +238,7 @@ Classifies each sample based on the majority vote of its K nearest neighbors (de
 
 ---
 
-## 📈 Results & Comparison
+## Results & Comparison
 
 ### Accuracy Scores
 
@@ -282,7 +282,7 @@ Actual  0  [ 10    0    0 ]   ← All 10 Setosa correct
 
 ---
 
-## ✅ Final Conclusion
+## Final Conclusion
 
 All five models achieved **100% accuracy** on the 30-sample test set, with perfect precision, recall, and F1-scores across all three classes.
 
@@ -306,7 +306,7 @@ All five models achieved **100% accuracy** on the 30-sample test set, with perfe
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 | Library | Purpose |
 |---|---|
@@ -319,7 +319,7 @@ All five models achieved **100% accuracy** on the 30-sample test set, with perfe
 
 ---
 
-## ▶️ How to Run
+## How to Run
 
 ```bash
 # 1. Clone or download the project
