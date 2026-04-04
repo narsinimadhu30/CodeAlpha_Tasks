@@ -6,21 +6,21 @@
 
 ## 📌 Table of Contents
 
-- [`Project Overview`](#project-overview)
-- [`Dataset Description`](#dataset-description)
-- [`Project Workflow`](#project-workflow)
-- [`Exploratory Data Analysis`](#exploratory-data-analysis)
-- [`Feature Engineering & Preprocessing`](#feature-engineering--preprocessing)
-- [`Model Building`](#model-building)
-- [`Model Evaluation Metrics`](#model-evaluation-metrics)
-- [`Results & Comparison`](#results--comparison)
-- [`Final Conclusion`](#final-conclusion)
-- [`Technologies Used`](#technologies-used)
-- [`How to Run`](#how-to-run)
+- [Project Overview](#project-overview)
+- [Dataset Description](#dataset-description)
+- [Project Workflow](#project-workflow)
+- [Exploratory Data Analysis](#exploratory-data-analysis)
+- [Feature Engineering & Preprocessing](#feature-engineering--preprocessing)
+- [Model Building](#model-building)
+- [Model Evaluation Metrics](#model-evaluation-metrics)
+- [Results & Comparison](#results--comparison)
+- [Final Conclusion](#final-conclusion)
+- [Technologies Used](#technologies-used)
+- [How to Run](#how-to-run)
 
 ---
 
-## 📖 Project Overview
+## Project Overview
 
 This project builds a **machine learning pipeline** to predict the resale price of used cars. Three regression models are trained and evaluated:
 
@@ -34,7 +34,7 @@ The best model is selected based on **R² Score**, **RMSE**, and **MAE**.
 
 ---
 
-## 📂 Dataset Description
+## Dataset Description
 
 - **File:** `car data.csv`
 - **Shape:** 301 rows × 9 columns (after loading)
@@ -56,7 +56,7 @@ The best model is selected based on **R² Score**, **RMSE**, and **MAE**.
 
 ---
 
-## 🔄 Project Workflow
+## Project Workflow
 
 ```
 Load Dataset
@@ -86,7 +86,7 @@ Compare & Select Best Model
 
 ---
 
-## 📊 Exploratory Data Analysis
+## Exploratory Data Analysis
 
 ### Dataset Info
 - **Total records:** 301
@@ -110,7 +110,7 @@ Compare & Select Best Model
 
 ---
 
-## ⚙️ Feature Engineering & Preprocessing
+## Feature Engineering & Preprocessing
 
 ### 1. Column Rename
 ```python
@@ -157,7 +157,7 @@ Resulting encoded columns:
 
 ---
 
-## 🧠 Model Building
+## Model Building
 
 ### Train/Test Split
 ```python
@@ -205,7 +205,7 @@ For each model, three diagnostic plots were generated:
 
 ---
 
-## 📐 Model Evaluation Metrics
+## Model Evaluation Metrics
 
 ### Metrics Explained
 
@@ -218,7 +218,7 @@ For each model, three diagnostic plots were generated:
 
 ---
 
-## 📈 Results & Comparison
+## Results & Comparison
 
 ### Model Performance on Test Set
 
@@ -250,7 +250,7 @@ For each model, three diagnostic plots were generated:
 
 ---
 
-## ✅ Final Conclusion
+## Final Conclusion
 
 After comparing all three models across R² Score, RMSE, and MAE:
 
@@ -273,7 +273,7 @@ After comparing all three models across R² Score, RMSE, and MAE:
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 | Library | Purpose |
 |---|---|
@@ -285,7 +285,7 @@ After comparing all three models across R² Score, RMSE, and MAE:
 
 ---
 
-## ▶️ How to Run
+## How to Run
 
 ```bash
 # 1. Clone or download the project
